@@ -110,11 +110,21 @@ header .menu li.active a {border-bottom: 2px solid #f15f2d; color: #f15f2d;}
 header .menu li.vk a {background: url('../images/vk.svg') no-repeat left; background-size: 26px 15px; padding-left: 40px;}
 header .menu li.vk a:hover {background: url('../images/vk_gray.svg') no-repeat left; background-size: 26px 15px;}
 
+ader .menu li. a {background: url('../images/Logotip-dlya-Diskorda.png') no-repeat left; background-size: 26px 15px; padding-left: 40px;}
+header .menu li. a:hover {background: url('../images/Logotip-dlya-Diskorda.png') no-repeat left; background-size: 26px 15px;}
+
+
 header .login {float: right;}
 header .login ul li {line-height: 18px; margin-left: 30px; float: left;}
 header .login ul li:first-child {margin: 0;}
 header .login ul li a {display: block; padding-top: 9px; font-size: 10px; color: #fff; text-transform: uppercase; text-decoration: none;}
 header .login ul li a:before {content: ''; display: block; border: 2px solid; border-radius: 50%; width: 28px; height: 28px; margin: 3px 10px 0 0; float: left;}
+
+header .login ul li.dis span {color: #fff;}
+header .login ul li.steam span {color: #fff;}
+header .login ul li.dis a:before {background: url('../images/Logotip-dlya-Diskorda.png') no-repeat 50% 50%; background-size: 16px 10px; border-color: #507299; transition: all .2s;}
+header .login ul li.dis a:hover:before {background: url('../images/Logotip-dlya-Diskorda.png') no-repeat 50% 50% #507299; background-size: 16px 10px;}
+
 header .login ul li.vk span {color: #fff;}
 header .login ul li.steam span {color: #fff;}
 header .login ul li.vk a:before {background: url('../images/vk_blue.svg') no-repeat 50% 50%; background-size: 16px 10px; border-color: #507299; transition: all .2s;}
@@ -122,6 +132,7 @@ header .login ul li.vk a:hover:before {background: url('../images/vk_white.svg')
 header .login ul li.steam a:before {background: url('../images/steam_blue.svg') no-repeat 50% 50%; background-size: 16px 15px; border-color: #12406f; transition: all .2s;}
 header .login ul li.steam a:hover:before {background: url('../images/steam_white.svg') no-repeat 50% 50% #12406f; background-size: 16px 15px;}
 header .login ul li span {display: block; font-size: 14px; font-weight: 700; letter-spacing: 1.4px;}
+
 
 header .profile {float: right;}
 header .profile a {text-decoration: none;}
